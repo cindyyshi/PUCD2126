@@ -1,0 +1,35 @@
+img {
+	width: 5000%
+	height:12000%;
+	border-style: solid;
+	border-width: 20px;
+
+}
+
+.title {
+	font-family:"Bangla MN", sans-serif;
+	font-weight: bold;
+	font-size: 100pt;
+	position: absolute;
+	bottom: 400px;
+	left: 50px;
+}
+
+.sub-title{
+	font-family:"Bangla MN", sans-serif;
+	font-weight: bold;
+	font-size: 60pt;
+	position: absolute;
+	bottom: 1200px;
+	left: 55px;
+}
+.information{
+	font-family:"Bangla MN", sans-serif;
+	font-weight: normal;
+	font-size: 12pt;
+	position: absolute;
+	top: 55px;
+	right: 40px;
+	max-width: 300px;
+	text-align: right;
+}
