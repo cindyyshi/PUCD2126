@@ -1,0 +1,233 @@
+html {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+}
+h1 {
+    font-size: 2rem;
+    color: grey;
+}
+
+p {
+    font-size: 2rem;
+}
+
+h1, h2, a, p {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.color-primary { 
+    color:#ad27ba;
+}
+
+.color-primary-background {
+    background-color: #ad27ba;
+}
+.color-primary-background li:hover{
+    background-color: #cc6dd6;
+}
+.selected{
+    background-color: #cc6dd6;
+    color: white;
+}
+
+.navigation-bar {
+    background-color: #ad27ba;
+    font-size: 1.25rem;
+    height: 5rem;
+    padding: 0;
+}
+
+.navigation-bar a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation-bar  a:hover{
+    text-decoration: none;
+}
+
+.nav-item {
+    height: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-item:hover{
+    background-color: #cc6dd6;
+}
+
+
+.logo-container {
+    margin: 0.6rem ;
+
+    border: 0.2rem white solid;
+    padding: 0;
+    width:10rem;
+}
+
+.logo-container h1{
+    font-size:  1.6rem;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.logo-container p{
+    font-size:  1.2rem;
+    text-transform: lowercase;
+    margin: 0;
+}
+
+
+
+.inline {
+    display: inline block;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+
+.navbar-height {
+    height: 20vh;
+}
+
+.frontpage-bottom {
+    margin: 0px 1.5rem 0px 1.5rem;
+}
+
+.title-box { 
+    border: 0.3rem gray solid;
+
+    margin-bottom: 2rem;
+    padding: 0.25rem;
+}
+
+.title-box h1{
+    font-size:2rem;
+
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+} 
+
+
+
+/* (primarily) why adopt page */ 
+.article-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.article-title h1{
+    font-size: 3rem;
+ }
+
+.article-textbox-3 {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+}
+
+
+
+/* (primarily) local shelters page */
+.page-title {
+    
+    letter-spacing: 0.1 rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.padded-container {
+    padding: 1.5rem;
+}
+
+
+.image-container {
+    margin-top: -2rem;
+
+    width: 100%;
+    height: 40vw;
+    overflow: hidden;
+
+    padding-bottom: 2rem;
+    margin: 0 0 4rem 0;
+
+}
+
+.image-container img {
+    padding: 0;
+    margin: 0;
+
+    width: 96%;
+}
+
+
+
+.article-image-container {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+
+    padding-bottom: 2rem;
+}
+
+.article-image-container img {
+    height: 100%;
+}
+
+
+.square-container {
+    width: 90vw;
+    height: 90vw;
+    max-width: 500px;
+    max-height: 500px;
+    overflow: hidden;
+    
+    margin: 3rem auto;
+}
+
+.square-container img {
+    height: 100%;
+}
+
+.page-title-large {
+    margin: 2rem 0 0 3rem;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+
+.article-textbox-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.article-textbox-2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.article-textbox-3 {
+    margin-top: 1rem;
+}
+.article-textbox-4 {
+    margin-top: 20px;
+}
+
+video {
+
+    margin:2rem auto;
+    width: 100%;
+    height: auto;
+}
